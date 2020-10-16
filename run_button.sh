@@ -1,3 +1,4 @@
+#!/bin/bash
 cd src
 cd main
 cd java

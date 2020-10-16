@@ -12,7 +12,7 @@ public class TerrapinCard {
   public void payGourmet() {
     balance -= 4 <= balance ? 4 : 0;
   }
-  public void loadMoney(int amount) {
+  public void loadMoney(double amount) {
     balance += amount < 0 ? 0 : amount + balance > 150 ? 150 - balance : amount;
   }
   public String toString() {
